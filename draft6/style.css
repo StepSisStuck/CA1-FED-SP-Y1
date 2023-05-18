@@ -148,7 +148,7 @@ header nav a {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: #3c2323;
+	background-color: #a06767;
 	padding: 20px;
 	border-radius: 5px;
 	text-align: center;
@@ -175,31 +175,36 @@ header nav a {
 	  right: 0;
 	  bottom: 0;
 	  background-color: rgba(0, 0, 0, 0.7);
-	  z-index: 9999;
+	  z-index: 999;
 	  opacity: 0;
 	  visibility: hidden;
 	  transition: opacity 0.5s, visibility 0.5s;
   }
   
+  
   /* Styling for the popup contents */
   #popup h3 {
 	  color: #fff;
+	  margin: 20px auto;
+  		text-align: center;
   }
   
   .icon-container {
-	  display: flex;
-	  justify-content: space-around;
-	  align-items: center;
-	  margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
   }
   
   .icon-container a img {
-	  width: 100px;
-	  height: 100px;
+	width: 100%;
+	max-width: 150px;
 	  border-radius: 50%;
 	  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
-  
+
   /* Styling for the popup close button */
   .popup-close {
 	  position: absolute;
