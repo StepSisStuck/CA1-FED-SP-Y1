@@ -1,56 +1,65 @@
 /* Global styles */
 body {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
-	margin: 0;
-	padding: 0;
-  }
-  
-  .container {
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 0 20px;
-  }
-  
-  a {
-	color: #333;
-	text-decoration: none;
-  }
-  
-  a:hover {
-	color: #007bff;
-  }
+    /* Set the font family, size, line height, margin, and padding for the body */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
 
+/* Set the maximum width, margin, and padding for the container class */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Set the color and text decoration for links */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Set the color for links on hover */
+a:hover {
+    color: #007bff;
+}
+
+/* Set the display, alignment, and height for the header container */
 header .container {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
 }
 
+/* Set the font size for the header h1 */
 header h1 {
-	font-size: 24px;
+    font-size: 24px;
 }
 
+/* Set the display, alignment, padding, and list style for the header navigation ul */
 header nav ul {
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	margin: 0;
-	padding: 0;
-	list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
+/* Set the margin for the header navigation li */
 header nav li {
-	margin-left: 20px;
+    margin-left: 20px;
 }
 
+/* Remove the margin for the first header navigation li */
 header nav li:first-child {
-	margin-left: 0;
+    margin-left: 0;
 }
 
+/* Set the font size for the header navigation links */
 header nav a {
-	font-size: 18px;
+    font-size: 18px;
 }
-
