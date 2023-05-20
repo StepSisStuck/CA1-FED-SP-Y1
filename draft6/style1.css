@@ -31,7 +31,7 @@ header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    height: 70px;
 }
 
 /* Set the font size for the header h1 */
@@ -62,4 +62,21 @@ header nav li:first-child {
 /* Set the font size for the header navigation links */
 header nav a {
     font-size: 18px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img.align-right {
+    float: right;
+    margin: 10px;
+    max-width: 50%;
+    height: auto;
 }
