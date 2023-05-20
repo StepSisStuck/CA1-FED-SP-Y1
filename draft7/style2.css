@@ -1,0 +1,85 @@
+/* Global styles */
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 10px; /* Adjust the padding value as needed */
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #007bff;
+}
+
+header {
+	background-color: #fff;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	position: relative;
+	z-index: 999;
+}
+
+header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 60px;
+	width: 100%;
+}
+
+header h1 {
+	font-size: 24px;
+	margin: 0;
+}
+
+header nav ul {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+header nav li {
+	margin-left: 20px;
+}
+
+header nav li:first-child {
+	margin-left: 0;
+}
+
+header nav a {
+	font-size: 18px;
+}
+
+.container h1 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.container p {
+	margin-bottom: 20px;
+}
+
+footer {
+	position: fixed;
+	bottom: -20px;
+	width: 100%;
+}
+
