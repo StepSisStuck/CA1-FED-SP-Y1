@@ -22,8 +22,7 @@ body {
 	color: #007bff;
   }
   
-
-header {
+  header {
 	background-color: #fff;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 	position: fixed;
@@ -34,112 +33,115 @@ header {
 	position: relative;
 	z-index: 999;
 }
-
-header .container {
+  
+  header .container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	height: 80px;
-}
-
-header h1 {
+  }
+  
+  header h1 {
 	font-size: 24px;
-}
-
-header nav ul {
+  }
+  
+  header nav ul {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
 	margin: 0;
 	padding: 0;
 	list-style: none;
-}
-
-header nav li {
+  }
+  
+  header nav li {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 	margin-left: 20px;
-}
-
-header nav li:first-child {
+  }
+  
+  header nav li:first-child {
 	margin-left: 0;
-}
-
-header nav a {
+  }
+  
+  header nav a {
 	font-size: 18px;
-}
-
-/* Hero section styles */
-.hero {
-    height: 500px;
-    position: relative;
-    background-image: url('IMG_1264.png');
-    background-size: cover;
-	
-}
-
-
-
-.hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-	background-color: transparent;
-	background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-}
-
-.hero-image {
-    height: 100%;
-    background-size: 30%;
-    background-position: center;
-    position: relative;
-    z-index: 1;
-}
-
-.hero-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #ffffff;
-    z-index: 3;
-}
-
-.hero-content h2 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-.hero-content p {
-    font-size: 24px;
-    margin-bottom: 40px;
-}
-
-.btn {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 18px;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-}
-
-.btn:hover {
-    background-color: #0056b3;
-}
-/* Popup styles */
-.popup {
-	position: fixed;
+  }
+  
+  /* Hero section styles */
+  .hero {
+	height: 100vh;
+	position: relative;
+	background-image: url('IMG_1264.png');
+	background-size: cover;
+  }
+  
+  .hero-overlay {
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
+	background-color: transparent;
 	background-color: rgba(0, 0, 0, 0.5);
-	display: none;
-	z-index: 9999;
+	z-index: 1;
+  }
+  
+  .hero-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: #ffffff;
+	z-index: 3;
+  }
+  
+  .hero-content h2 {
+	font-size: 48px;
+	margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+	font-size: 24px;
+	margin-bottom: 40px;
+  }
+  
+  .btn {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 18px;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+  }
+  
+  .btn:hover {
+	background-color: #0056b3;
+  }
+  
+  /* Popup styles */
+  #popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 999;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.5s, visibility 0.5s;
+  }
+  
+  #popup:target {
+	opacity: 1;
+	visibility: visible;
   }
   
   .popup-content {
@@ -159,65 +161,93 @@ header nav a {
 	right: 10px;
 	font-size: 25px;
 	font-weight: bold;
+	color: #fff;
 	cursor: pointer;
   }
   
   .popup-close:hover {
 	color: #999;
   }
-  
+
   /* Styling for the popup container */
   #popup {
-	  position: fixed;
-	  top: 0;
-	  left: 0;
-	  right: 0;
-	  bottom: 0;
-	  background-color: rgba(0, 0, 0, 0.7);
-	  z-index: 999;
-	  opacity: 0;
-	  visibility: hidden;
-	  transition: opacity 0.5s, visibility 0.5s;
-  }
-  
-  
-  /* Styling for the popup contents */
-  #popup h3 {
-	  color: #fff;
-	  margin: 20px auto;
-  		text-align: center;
-  }
-  
-  .icon-container {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-	max-width: 800px;
-	margin: 0 auto;
-  }
-  
-  .icon-container a img {
-	width: 100%;
-	max-width: 150px;
-	  border-radius: 50%;
-	  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 999;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.5s, visibility 0.5s;
+}
 
-  /* Styling for the popup close button */
-  .popup-close {
-	  position: absolute;
-	  top: 10px;
-	  right: 10px;
-	  color: #fff;
-	  font-size: 30px;
-	  cursor: pointer;
+
+/* Styling for the popup contents */
+#popup h3 {
+	color: #fff;
+	margin: 20px auto;
+		text-align: center;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.icon-container a img {
+  width: 100%;
+  max-width: 150px;
+	border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+  
+  /* Footer styles */
+  footer {
+	background-color: #f5f5f5;
+	padding: 20px 0;
+	text-align: center;
   }
   
-  /* Styling for the popup when it is open */
-  #popup:target {
-	  opacity: 1;
-	  visibility: visible;
+  footer p {
+	margin: 0;
+	color: #888;
   }
-
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 767px) {
+	header .container {
+	  flex-wrap: wrap;
+	  justify-content: center;
+	}
+  
+	header nav ul {
+	  margin-top: 20px;
+	  justify-content: center;
+	}
+  
+	header nav li {
+	  margin: 0 10px;
+	}
+  
+	.hero-content h2 {
+	  font-size: 36px;
+	}
+  
+	.hero-content p {
+	  font-size: 18px;
+	  margin-bottom: 20px;
+	}
+  }
+  
+  @media screen and (max-width: 575px) {
+	.container {
+	  padding: 0 10px;
+	}
+  }
   
