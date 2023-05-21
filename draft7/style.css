@@ -230,10 +230,14 @@ header .container {
 	}
   }
   
-	header nav ul {
-	  margin-top: 20px;
-	  justify-content: center;
-	}
+  header nav ul {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
   
 	header nav li {
 	  margin: 0 10px;
@@ -247,7 +251,7 @@ header .container {
 	  font-size: 18px;
 	  margin-bottom: 20px;
 	}
-  }
+  
   
   @media screen and (max-width: 575px) {
 	.container {
