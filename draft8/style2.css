@@ -1,16 +1,22 @@
-/* Global styles */
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
 	margin: 0;
 	padding: 0;
+	margin-top: 80px;
 }
 
 .container {
 	max-width: 960px;
 	margin: 0 auto;
-	padding: 10px; /* Adjust the padding value as needed */
+	padding: 20px;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
 }
 
 a {
@@ -30,16 +36,16 @@ header {
 	left: 0;
 	width: 100%;
 	z-index: 1;
-	position: relative;
-	z-index: 999;
+	margin-bottom: 0;
 }
+
 
 header .container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	height: 60px;
-	width: 100%;
+	height: 80px;
+	padding: 0 20px;
 }
 
 header h1 {
@@ -68,18 +74,107 @@ header nav a {
 	font-size: 18px;
 }
 
-.container h1 {
-	font-size: 32px;
+
+p {
 	margin-bottom: 20px;
 }
 
-.container p {
-	margin-bottom: 20px;
+/* Figure box and caption */
+figure {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 10px;
+	background-color: #f9f9f9;
+	text-align: center;
 }
 
-footer {
-	position: fixed;
-	bottom: -20px;
-	width: 100%;
+figcaption {
+	font-style: italic;
+	color: #888;
+	margin-top: 10px;
 }
 
+/* Background image */
+.hero {
+	height: 400px;
+	background-image: url('sustainability.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+/* Border */
+.container-border {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+/* Text shadow */
+.text-shadow {
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Linear gradient */
+.gradient {
+	background: linear-gradient(to bottom, #ffd700, #f9a602);
+}
+
+/* 2D transformation */
+.transform {
+	transform: rotate(15deg);
+}
+
+/* CSS filter */
+.filter {
+	filter: brightness(70%);
+}
+
+/* Image map */
+.image-map {
+	position: relative;
+}
+
+.image-map img {
+	display: block;
+	max-width: 100%;
+}
+
+.image-map a {
+	position: absolute;
+}
+
+.image-map a.area1 {
+	top: 10%;
+	left: 15%;
+	width: 25%;
+	height: 30%;
+}
+
+.image-map a.area2 {
+	top: 25%;
+	left: 45%;
+	width: 20%;
+	height: 25%;
+}
+
+.image-map a.area3 {
+	top: 50%;
+	left: 15%;
+	width: 30%;
+	height: 20%;
+}
+
+.image-map a.area4 {
+	top: 60%;
+	left: 60%;
+	width: 25%;
+	height: 30%;
+}
+
+.image-map a.area5 {
+	top: 80%;
+	left: 20%;
+	width: 20%;
+	height: 25%;
+}
