@@ -1,3 +1,6 @@
+/* Title: Style.css */
+
+
 /* Global styles */
 body {
     font-family: 'Montserrat', sans-serif;
@@ -258,3 +261,7 @@ img.align-right {
     max-width: 50%;
     height: auto;
 }
+
+#mhead {
+    text-shadow: 2px 2px 4px #000000;
+  }

@@ -1,3 +1,4 @@
+/* Title: Style2.css */
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
@@ -178,3 +179,15 @@ figcaption {
 	width: 20%;
 	height: 25%;
 }
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, auto);
+	grid-gap: 20px;
+  }
+  
+  .grid-item {
+	border: 1px solid #ccc;
+	padding: 10px;
+  }
