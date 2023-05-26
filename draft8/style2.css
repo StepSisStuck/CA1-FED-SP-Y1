@@ -130,8 +130,8 @@ figcaption {
 }
 
 /* Set styles for linear gradients */
-.gradient {
-    background: linear-gradient(to bottom, #ffd700, #f9a602);
+.container-gradient {
+	background: linear-gradient(to right, #c2b422, #7690a6);
 }
 
 /* Set styles for 2D transformations */
@@ -213,3 +213,7 @@ figcaption {
     border: 1px solid #ccc;
     padding: 10px;
 }
+/* Center the text for the box*/
+.center {
+	text-align: center;
+  }
