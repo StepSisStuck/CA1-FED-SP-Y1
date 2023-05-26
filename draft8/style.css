@@ -1,3 +1,6 @@
+/* Title: Style.css */
+
+
 /* Global styles */
 body {
     font-family: 'Montserrat', sans-serif;
@@ -243,3 +246,22 @@ footer p {
         margin-bottom: 20px;
     }
 }
+
+/* Set the font size for the header navigation links */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img.align-right {
+    float: right;
+    margin: 10px;
+    max-width: 50%;
+    height: auto;
+}
+
+#mhead {
+    text-shadow: 2px 2px 4px #000000;
+  }
