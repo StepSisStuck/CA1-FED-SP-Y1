@@ -137,7 +137,10 @@ figcaption {
 /* Set styles for 2D transformations */
 .transform {
     transform: rotate(15deg);
-}
+	margin-bottom: 100px;
+	margin-top: 100px;
+	}
+
 
 /* Set styles for CSS filters */
 .filter {
