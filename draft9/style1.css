@@ -1,4 +1,4 @@
-/* Title: Style1.css */
+/* Title: style1.css */
 
 /* Global styles */
 body {
@@ -12,9 +12,9 @@ body {
 
 /* Set the maximum width, margin, and padding for the container class */
 .container {
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 10px; /* Adjust the padding value as needed */
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px; /* Adjust the padding value as needed */
 }
 
 /* Set the color and text decoration for links */
@@ -30,23 +30,23 @@ a:hover {
 
 /* Set the display, alignment, and height for the header container */
 header {
-	background-color: #fff;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 1;
-	position: relative;
-	z-index: 999;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    z-index: 999;
 }
 
 header .container {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	height: 60px;
-	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
 }
 
 /* Set the font size for the header h1 */
@@ -58,11 +58,11 @@ header h1 {
 /* Set the display, alignment, padding, and list style for the header navigation ul */
 header nav ul {
     display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	margin: 0;
-	padding: 0;
-	list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 /* Set the margin for the header navigation li */
@@ -78,12 +78,6 @@ header nav li:first-child {
 /* Set the font size for the header navigation links */
 header nav a {
     font-size: 18px;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
 }
 
 h1, h2, p {
