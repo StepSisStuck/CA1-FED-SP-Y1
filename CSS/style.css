@@ -82,7 +82,7 @@ header nav a {
 .hero {
     height: 100vh;
     position: relative;
-    background-image: url('IMG_1264.png');
+    background-image: url('/Image/IMG_1264.png');
     background-size: cover;
 }
 
