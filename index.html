@@ -4,18 +4,21 @@
 	<!--Title: Home.html-->
 	<title>Project: Save the Earth</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="CSS/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="CSS/style.css">
+	<style>
+		/* Your custom CSS styles here */
+	</style>
 </head>
 <body>
 	<header>
 		<div class="container">
 			<a href="#"><img src="Image/Main_Logo.png" alt="Logo"  width="130" height="130"></a>
-			<nav>
-				<ul class="nav">
+			<nav class="navbar navbar-expand">
+				<ul class="navbar-nav">
 					<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="Empower.html">Empowering Sustainability</a></li>
 					<li class="nav-item"><a class="nav-link" href="SP_Enviroment.html">SP Environmental Sustainability Efforts</a></li>
@@ -47,12 +50,28 @@
 		</div>
 
 		<div class="container">
-			<section id="intro">
-				<!-- This is the main content section -->
-				<h1>Hello there! I'm Stanly! </h1>
-				<img src="Image/Index/me.png" alt="Me" class="align-right">
-				<h2>Values</h2>
-				<p>I believe in the importance of honesty, integrity, and empathy. These values guide my interactions with others and shape my approach to both personal and professional relationships. I strive to maintain a strong moral compass and treat everyone with respect and fairness!</p>
-				<img src="Image/Index/BeachClean.jpeg" alt="Beach Clean" class="align1-right">
-				<h2>Interests</h2>
-				<p>I have a deep passion for information technology and the ever
+			<section id="intro" class="row">
+				<div class="col-md-6">
+					<!-- Left column content -->
+					<h1>Hello there! I'm Stanly! </h1>
+					<img src="Image/Index/me.png" alt="Me" class="align-right">
+					<h2>Values</h2>
+					<p>I believe in the importance of honesty, integrity, and empathy. These values guide my interactions with others and shape my approach to both personal and professional relationships. I strive to maintain a strong moral compass and treat everyone with respect and fairness!</p>
+					<img src="Image/Index/BeachClean.jpeg" alt="Beach Clean" class="align1-right">
+				</div>
+				<div class="col-md-6">
+					 Right column content 
+					<h2>Interests</h2>
+					<p>I have a passion for environmental sustainability and conservation. I am deeply interested in finding innovative solutions to combat climate change, reduce pollution, and protect our natural resources. Through my work, I aim to raise awareness and inspire others to take action for a greener and more sustainable future.</p>
+				</div>
+			</section>
+		</div>
+	</main>
+
+	<script>
+		function openPopup() {
+			document.getElementById('popup').style.display = 'block';
+		}
+	</script>
+</body>
+</html>
