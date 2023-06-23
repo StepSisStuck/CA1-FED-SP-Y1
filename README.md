@@ -26,6 +26,7 @@ The folder structure is as follows:
     - [Header styles](#header-styles-1)
     - [Typography styles](#typography-styles)
     - [Image alignment](#image-alignment)
+- [Feedback](#feedback)
 
 
 
@@ -240,3 +241,10 @@ The code includes inline CSS styles applied to various elements. Here's a breakd
 
 These are all the styles defined in the `style1.css` file, along with their corresponding descriptions.
 
+
+
+# Feedback 
+Enter name and class
+Code Banner
+
+Colours, might not be the right choice, padding issues
