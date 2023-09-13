@@ -3,6 +3,7 @@
 The folder structure is as follows:
 
 - [This repository contains the code for FED CA1](#this-repository-contains-the-code-for-fed-ca1)
+- [Introduction](#introduction)
 - [Index.html Documentation](#indexhtml-documentation)
 - [style.css Documentation](#stylecss-documentation)
   - [Global Styles](#global-styles)
@@ -28,10 +29,17 @@ The folder structure is as follows:
     - [Image alignment](#image-alignment)
 - [Feedback](#feedback)
 
+# Introduction
+
+Hello there! Welcome to the CA2 Front End Development Project. This project is a part of the course Front End Development. Over here is where I used Bootstrap to create a website for the theme **Sustainable SP**! I have a also included some of the assignments I have done for the modules. Please do not copy the assignments as it is. You may use it as a reference or for inspiration. :D
+
+Feel free to pull a [discussion request](https://github.com/StepSisStuck/DCITP-SP-Y1-S1-ClassNotes/discussions) if you have any questions or feedbacks. I will be happy to hear from you!
+
+FYI! The final draft in [this branch](https://github.com/StepSisStuck/CA2-FED-SP-Y1/tree/CA2-FED-SP-Y1)
+
+Without further ado, feel free to take a look at the [full website](https://stepsisstuck.github.io/CA1-FED-SP-Y1/)! let's get started!
 
 
-
-The final Draft is [here](/CA1)
 
 # Index.html Documentation
 This HTML code is a webpage for a project called "Save the Earth". It includes a header with a logo and navigation menu, a hero section with a call-to-action button, a popup section with three buttons, a main content section with information about the author's values, interests, and personality, and a footer with copyright information.
